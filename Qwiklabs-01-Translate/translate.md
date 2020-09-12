@@ -1,6 +1,6 @@
 # **Google Cloud Fundamentals: Getting Started with GKE**
 
-
+```
 gcloud config set project qwiklabs-gcp-03-80268fc9e5c6
 gcloud services enable containerregistry.googleapis.com  
 gcloud services enable containeranalysis.googleapis.com
@@ -12,7 +12,7 @@ kubectl create deploy nginx --image=nginx:1.17.10
 kubectl expose deployment nginx --port 80 --type LoadBalancer
 kubectl scale deployment nginx --replicas 3
 curl 34.123.102.202
-
+```
 ---------------------------------------------------------------------------------
 # **Console and Cloud Shell**
 
