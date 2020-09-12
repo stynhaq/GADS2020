@@ -16,7 +16,7 @@ curl 34.123.102.202
 ---------------------------------------------------------------------------------
 # **Console and Cloud Shell**
 ```
-<pre><code>gsutil mb gs://austin-gads2020-00
+gsutil mb gs://austin-gads2020-00
 gsutil mb gs://austin-gads2020-01
 echo "Hello GADS!" >> hello.txt
 gsutil cp 'hello.txt' gs://austin-gads2020-01
@@ -28,5 +28,5 @@ echo INFRACLASS_REGION=$INFRACLASS_REGION >> ~/infraclass/config
 INFRACLASS_PROJECT_ID=qwiklabs-gcp-04-17af6f9122b8
 echo INFRACLASS_PROJECT_ID=$INFRACLASS_PROJECT_ID >> ~/infraclass/config
 source infraclass/config
-echo "source infraclass/config" >> .profile </code> </pre>
+echo "source infraclass/config" >> .profile
 ```
